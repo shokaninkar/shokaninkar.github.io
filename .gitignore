@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Personal source material (resumes, exports)
+inputs/
+.venv/
+headshot_src/
