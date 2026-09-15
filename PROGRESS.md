@@ -15,7 +15,11 @@ Last updated: 2026-09-15
 ## Files created / changed
 `index.html` `style.css` `headshot.webp` `headshot.jpg` `.nojekyll` `.gitignore` `CLAUDE.md` `content_brief.md` `design_brief.md` `verify.sh` `PROGRESS.md` `.claude/settings.json` `.claude/hooks/log-bash.sh` `inputs/*` (ignored)
 
+## Live
+- https://shokaninkar.github.io — repo renamed to `shokaninkar.github.io`, pushed, Pages built from `main` `/`, HTTPS enforced (2026-09-15 19:47 UTC). All 7 UNSOURCED items resolved; site updated.
+
 ## Next 3 steps
-1. **Rename the repo** so Pages serves it at the root: `gh repo rename shokaninkar.github.io` (from inside this folder), then `git push -u origin main`, then enable Pages: `gh api -X POST repos/shokaninkar/shokaninkar.github.io/pages -f build_type=legacy -f 'source[branch]=main' -f 'source[path]=/'`. Wait ≤10 min, tick Enforce HTTPS.
-2. **Confirm the 7 UNSOURCED items** at the bottom of `content_brief.md` (degree name, Kenyon status, AMC headcount, undated roles, Tetr degree title, who owns V3-rs). Edit `index.html` for anything that changes; re-run `./verify.sh`.
+1. ~~Rename the repo~~ **Done.** Restart Claude Code in this folder so the cmdlog hook starts recording (`notes/cmdlog.txt`).
+   ~~`gh repo rename so Pages serves it at the root: `gh repo rename shokaninkar.github.io` (from inside this folder), then `git push -u origin main`, then enable Pages: `gh api -X POST repos/shokaninkar/shokaninkar.github.io/pages -f build_type=legacy -f 'source[branch]=main' -f 'source[path]=/'`. Wait ≤10 min, tick Enforce HTTPS.
+2. ~~Confirm the 7 UNSOURCED items~~ **Done** — see the Resolved section of `content_brief.md`. One open item: dates for the Tetr Brand Ambassador role.
 3. **Remaining lab deliverables:** `notes/insights_2026-09-15.md` (3 friction patterns from `/insights`), restart the session so `notes/cmdlog.txt` fills, `.claude/skills/teach/SKILL.md` + `docs/self-learning-guide_<date>.md` (Part 6), `notes/reflection.md`, then run `/web-design-guidelines` and `/seo-audit` and save to `notes/audit_<date>.md`.
