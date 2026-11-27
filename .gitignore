@@ -221,3 +221,11 @@ __marimo__/
 inputs/
 .venv/
 headshot_src/
+
+# internal working files, kept locally, not published
+content_brief.md
+design_brief.md
+PROGRESS.md
+CLAUDE.md
+verify.sh
+.claude/
